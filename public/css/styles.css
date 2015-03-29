@@ -1,0 +1,190 @@
+body {
+
+  background-image: url(/images/black_background.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+
+}
+
+a {
+
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+
+}
+
+.personal_picture {
+
+  position: fixed;
+  top: 19%;
+  left: 55%;
+
+}
+
+.contact_info {
+
+  position: fixed;
+  top: 26%;
+  left: 40%;
+
+}
+
+.contact_info img {
+
+  margin: 15;
+
+}
+
+.code {
+
+  position: fixed;
+  top: 10%;
+  left: 35%;
+
+}
+
+.code_text {
+
+  position: fixed;
+  font-size: 150%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: white;
+  padding: 0;
+  margin: 0;
+  top: 70%;
+  left: 28%;
+
+}
+
+.blog_text {
+
+  position: fixed;
+  font-size: 150%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: white;
+  padding: 0;
+  margin: 0;
+  top: 40%;
+  left: 40%;
+
+}
+
+.name_space {
+
+  position: fixed;
+  top: 22%;
+  left: 30%;
+
+}
+
+.white_1 {
+
+  font-size: 450%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: white;
+  padding: 0;
+  margin: 0;
+
+}
+
+.red_1 {
+
+  font-size: 450%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: CC0033;
+  padding: 0;
+  margin: 0;
+
+}
+
+.white_2 {
+
+  font-size: 225%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: white;
+  padding: 0;
+  margin: 0;
+
+}
+
+.red_2 {
+
+  font-size: 225%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: CC0033;
+  padding: 0;
+  margin: 0;
+
+}
+
+#header_bar {
+
+  background: black;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  border-style: solid;
+  border-color: black black #383838 black;
+  border-width: 2px;
+
+}
+
+#footer_bar {
+
+  background: black;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+
+}
+
+#header_tabs {
+
+  float: right;
+  position: relative;
+  left: -50%;
+  text-align: left;
+
+}
+
+#header_tabs ul {
+
+  list-style: none;
+  position: relative;
+  white-space: nowrap;
+  left: 50%;
+
+}
+
+#header_tabs li {
+
+  display: inline-block;
+  position: relative;
+
+}
+
+#header_tabs a {
+
+  margin-left: 40px;
+  margin-right: 40px;
+  background: black;
+  float: left;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  white-space: nowrap;
+  border-color: #383838;
+  border-width: 2px;
+
+}
